@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    background-color: rgb(50, 179, 50);
+}
+body {
+    background-color: lightgreen;
+}
+.flex-container {
+    background-color: lightgreen;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: 3%;
+    border-color: black;
+}
+.flex-item {
+    flex: 1 1 200px;
+    max-width: calc(33.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
